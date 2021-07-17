@@ -49,7 +49,7 @@ Saya Memiliki Banyak Fitur Praktis Seperti :
 ┣• Gunakan Perintah » /help « untuk Mengetahui Fitur Lengkap saya
 ┗━━━━━━━━━━━━━━
 ❃ Managed With ❤ By {OWNER}
-❃ Thanks To [Risman](https://t.me/mrismanaziz)
+❃ Thanks To [sinner](https://t.me/lifeinsinn)
 ━━━━━━━━━━━━━━━
 Ingin Menambahkan Saya ke Grup Anda? Tambahkan Saya Ke Group Anda!
 </b>""",
