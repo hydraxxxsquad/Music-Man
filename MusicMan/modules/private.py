@@ -45,13 +45,13 @@ Saya Memiliki Banyak Fitur Praktis Seperti :
 ┏━━━━━━━━━━━━━━
 ┣• Memutar Musik.
 ┣• Mendownload Lagu.
-┣• Mencari Lagu Yang ingin di Putar atau di Download.
-┣• Gunakan Perintah » /help « untuk Mengetahui Fitur Lengkap saya
+┣• Teman tidur di OS.
+┣• Ketik » /help « untuk Fitur Lengkap saya
 ┗━━━━━━━━━━━━━━
 ❃ Managed With ❤ By {OWNER}
 ❃ Thanks To [sinner](https://t.me/lifeinsinn)
 ━━━━━━━━━━━━━━━
-Ingin Menambahkan Saya ke Grup Anda? Tambahkan Saya Ke Group Anda!
+Ingin Menggunakan Saya di Grup Anda? Tambahkan Saya Ke Group Anda!
 </b>""",
 
 # Edit Yang Perlu Lu ganti 
@@ -64,9 +64,9 @@ Ingin Menambahkan Saya ke Grup Anda? Tambahkan Saya Ke Group Anda!
                         "➕ Tambahkan saya ke Grup Anda ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],
                 [
                     InlineKeyboardButton(
-                        "💬 Channel Updates", url=f"https://t.me/{UPDATES_CHANNEL}"), 
+                        "👑 King", url=f"https://t.me/lifeinsinn"), 
                     InlineKeyboardButton(
-                        "⛑ Group Support", url=f"https://t.me/{SUPPORT_GROUP}")
+                        "⛑ Group XXX", url=f"https://t.me/XXXZsquad_18plus")
                 ],[
                     InlineKeyboardButton(
                         "🛠 Source Code 🛠", url=f"https://{SOURCE_CODE}")
@@ -106,7 +106,7 @@ def map(pos):
             [InlineKeyboardButton(text = 'Next »', callback_data = "help+2")]
         ]
     elif pos==len(tr.HELP_MSG)-1:
-        url = f"https://t.me/{SUPPORT_GROUP}"
+        url = f"https://t.me/XXXsquad_18plus"
         return [
             [
                 InlineKeyboardButton(
@@ -116,11 +116,11 @@ def map(pos):
             ],
             [
                 InlineKeyboardButton(
-                    text='💬 Channel Updates',
-                    url=f"https://t.me/{UPDATES_CHANNEL}",
+                    text='👑 King',
+                    url=f"https://t.me/lifeinsinn",
                 ),
                 InlineKeyboardButton(
-                    text='⛑ Group Support', url=f"https://t.me/{SUPPORT_GROUP}"
+                    text='⛑ Group XXX', url=f"https://t.me/XXXsquad_18plus"
                 ),
             ],
             [
