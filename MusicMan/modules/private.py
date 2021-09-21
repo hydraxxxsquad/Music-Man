@@ -39,18 +39,15 @@ logging.basicConfig(level=logging.INFO)
 )
 async def start_(client: Client, message: Message):
     await message.reply_text(
-        f"""<b>┗┓ Haii {message.from_user.first_name} saya adalah {PROJECT_NAME} ┏┛\n
+        f"""<b>👉 Haii {message.from_user.first_name} saya adalah {PROJECT_NAME} 👈\n
 Saya Bot Music Group, Yang dapat Memutar Lagu di Voice Chat Group Dengan cara yang Mudah
 Saya Memiliki Banyak Fitur Praktis Seperti :
-┏━━━━━━━━━━━━━━
-┣• Memutar Musik.
-┣• Mendownload Lagu.
-┣• Teman tidur di OS.
-┣• Ketik » /help « untuk Fitur Lengkap saya
-┗━━━━━━━━━━━━━━
-❃ Managed With ❤ By {OWNER}
-❃ Thanks To [sinner](https://t.me/lifeinsinn)
-━━━━━━━━━━━━━━━
+👉• Memutar Musik.
+👉• Mendownload Lagu.
+👉• Teman tidur di OS.
+👉• Ketik » /help « untuk Fitur Lengkap saya
+🍺 Managed With ❤ by: [sinner](https://t.me/lifeinsinn)
+
 Ingin Menggunakan Saya di Grup Anda? Tambahkan Saya Ke Group Anda!
 </b>""",
 
@@ -66,7 +63,7 @@ Ingin Menggunakan Saya di Grup Anda? Tambahkan Saya Ke Group Anda!
                     InlineKeyboardButton(
                         "👑 King", url=f"https://t.me/lifeinsinn"), 
                     InlineKeyboardButton(
-                        "⛑ Group XXX", url=f"https://t.me/XXXZsquad_18plus")
+                        "⛑ Group XXX", url=f"https://t.me/xxxsquad18plus")
                 ],[
                     InlineKeyboardButton(
                         "🛠 Source Code 🛠", url=f"https://{SOURCE_CODE}")
@@ -106,7 +103,7 @@ def map(pos):
             [InlineKeyboardButton(text = 'Next »', callback_data = "help+2")]
         ]
     elif pos==len(tr.HELP_MSG)-1:
-        url = f"https://t.me/XXXsquad_18plus"
+        url = f"https://t.me/xxxsquad18plus"
         return [
             [
                 InlineKeyboardButton(
@@ -120,7 +117,7 @@ def map(pos):
                     url=f"https://t.me/lifeinsinn",
                 ),
                 InlineKeyboardButton(
-                    text='⛑ Group XXX', url=f"https://t.me/XXXsquad_18plus"
+                    text='⛑ Group XXX', url=f"https://t.me/xxxsquad18plus"
                 ),
             ],
             [
